@@ -1,1 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2022-10-28T19:08:45.907Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="18.0.3" etag="POg-tzgVUUOQZVG72S-q" type="github"><diagram id="hUgOBEj_a8dKlOSzjo1u">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-28T19:25:51.610Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="dnbGlaN2gS-yKz1RR_57" version="18.0.3" type="github">
+  <diagram id="hUgOBEj_a8dKlOSzjo1u" name="Page-1">
+    <mxGraphModel dx="1790" dy="874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DfwS5FLs69YTaJCDi5DK-18" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry width="1100" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="DfwS5FLs69YTaJCDi5DK-6" value="OSPREY ENV" style="whiteSpace=wrap;html=1;aspect=fixed;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="750" y="40" width="290" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="DfwS5FLs69YTaJCDi5DK-1" value="Osprey mirror" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="425" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DfwS5FLs69YTaJCDi5DK-2" value="ETL" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="425" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DfwS5FLs69YTaJCDi5DK-3" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="865" y="50" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DfwS5FLs69YTaJCDi5DK-4" value="EXPORT" style="endArrow=classic;html=1;rounded=0;startArrow=none;fontSize=20;" edge="1" parent="1" source="DfwS5FLs69YTaJCDi5DK-3" target="DfwS5FLs69YTaJCDi5DK-1">
+          <mxGeometry x="0.5545" y="10" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="100" as="sourcePoint" />
+            <mxPoint x="600" y="424" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="89" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DfwS5FLs69YTaJCDi5DK-5" value="Backend" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="260" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DfwS5FLs69YTaJCDi5DK-10" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="DfwS5FLs69YTaJCDi5DK-5" target="DfwS5FLs69YTaJCDi5DK-3">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="830" y="430" as="sourcePoint" />
+            <mxPoint x="930" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DfwS5FLs69YTaJCDi5DK-11" value="WI Data Sources" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DfwS5FLs69YTaJCDi5DK-13" value="VAN" style="endArrow=classic;html=1;rounded=0;fontSize=24;" edge="1" parent="1" source="DfwS5FLs69YTaJCDi5DK-11" target="DfwS5FLs69YTaJCDi5DK-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="290" as="sourcePoint" />
+            <mxPoint x="410" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DfwS5FLs69YTaJCDi5DK-14" value="VAN.match" style="endArrow=classic;html=1;rounded=0;fontSize=20;" edge="1" parent="1" source="DfwS5FLs69YTaJCDi5DK-1" target="DfwS5FLs69YTaJCDi5DK-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="470" as="sourcePoint" />
+            <mxPoint x="570" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DfwS5FLs69YTaJCDi5DK-15" value="UPDATE" style="endArrow=classic;html=1;rounded=0;fontSize=20;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="DfwS5FLs69YTaJCDi5DK-2" target="DfwS5FLs69YTaJCDi5DK-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="470" as="sourcePoint" />
+            <mxPoint x="570" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="600" />
+              <mxPoint x="900" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
